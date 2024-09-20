@@ -1,0 +1,718 @@
+    * {
+        padding: 0 !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-size: 15px;
+    }
+
+    li {
+        padding: 5px !important;
+    }
+
+    body {
+        padding: 20px 30px !important;
+        background-color: rgb(22, 22, 22);
+    }
+
+    img.svg {
+        width: 30px;
+        margin: 0px 15px;
+    }
+
+    .dropdown-menu {
+        background-color: rgb(22, 22, 22) !important;
+    }
+
+    .container-fluid {
+        background-color: rgb(22, 22, 22) !important;
+    }
+
+    .navbar-nav .nav-link.active {
+        color: white;
+    }
+
+    .navbar-nav .nav-link.show {
+        color: white;
+    }
+
+    .nav-link:focus,
+    .nav-link:hover {
+        color: white;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .navbar-nav .nav-link.active:hover {
+        color: rgb(204, 204, 204);
+    }
+
+    .nav-link:hover {
+        color: rgb(204, 204, 204);
+    }
+
+    nav div {
+        padding: 15px 50px 15px 0px;
+    }
+
+    nav div a {
+        padding-left: 50px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 32px;
+    }
+
+    h1.aprenda {
+        color: white;
+        font-size: 32px;
+        text-align: center !important;
+    }
+
+    a {
+        color: white;
+    }
+
+    a.dropdown-item {
+        width: 30%;
+        color: white;
+        transition: 0.3s;
+    }
+
+    a.dropdown-item:hover {
+        background-color: rgb(22, 22, 22);
+        transition: 0.3s;
+        color: rgb(201, 201, 201);
+    }
+
+    li {
+        list-style: none;
+    }
+
+    div.fotoscorda {
+        display: flex;
+    }
+
+    img.guita {
+        max-width: 30%;
+        border-radius: 10px;
+    }
+
+    img.baixo {
+        border-radius: 10px;
+        width: 40%;
+    }
+
+    .borda {
+        width: fit-content;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+        border: 3px solid white;
+    }
+
+    .pontos {
+        margin-left: 10px;
+        align-self: flex-end;
+    }
+
+    .pontos img {
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    .pontos img:hover {
+        cursor: pointer;
+        transition: 0.3s;
+        transform: scale(1.1);
+    }
+
+    .card {
+        transition: 0.3s;
+        border: 0px;
+        background-color: rgb(22, 22, 22);
+    }
+
+    .card:hover {
+        transition: 0.3s;
+        transform: scale(1.03);
+        cursor: pointer;
+        border: 0px;
+    }
+
+    h5.card-title {
+        color: white;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+
+    p.curso {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    a.primeiro {
+        padding: 30px 70px;
+        font-size: 20px;
+        transition: 0.3s;
+        width: fit-content;
+        text-decoration: none;
+    }
+
+    a.primeiro:hover {
+        transition: 0.3s;
+        cursor: pointer;
+        border-bottom: 1px solid white;
+    }
+
+
+
+    .header {
+        background-image: url('../img/caraguitarra.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header1 {
+        background-image: url('../img/caraviolao.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header2 {
+        background-image: url('../img/caraviolino.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headerDiv {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 25%, rgba(0, 212, 255, 0) 100%);
+        height: 100vh;
+        text-align: left;
+        display: grid;
+        align-content: center;
+        font-size: 100px;
+        border-radius: 10px;
+    }
+
+    .headerDiv h1 {
+        width: fit-content;
+        padding: 0px 0px 0px 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .headerDiv h2 {
+        width: fit-content;
+        padding: 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .headerDiv h3 {
+        width: fit-content;
+        padding: 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .headerDiv button {
+        width: 30%;
+        max-width: fit-content;
+        font-size: 20px;
+        padding: 5px !important;
+        margin-left: 15px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: black;
+        transition: 0.3s;
+    }
+
+    .headerDiv button:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
+
+    .headerDiv1 {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 75%);
+        height: 100vh;
+        text-align: right;
+        display: grid;
+        align-content: center;
+        font-size: 100px;
+    }
+
+    .headerDiv1 h1 {
+        padding: 0px 15px 0px 0px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .headerDiv1 h2 {
+        padding: 15px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .headerDiv1 h3 {
+        padding: 15px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .headerDiv1 button {
+        max-width: fit-content;
+        width: 30%;
+        font-size: 20px;
+        padding: 5px !important;
+        margin-right: 15px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: black;
+        transition: 0.3s;
+        text-align: right;
+        justify-self: right;
+    }
+
+    .headerDiv1 button:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
+
+    .headerDiv2 {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 25%, rgba(0, 212, 255, 0) 100%);
+        height: 100vh;
+        text-align: left;
+        display: grid;
+        align-content: center;
+        font-size: 100px;
+    }
+
+    .headerDiv2 h1 {
+        width: fit-content;
+        padding: 0px 0px 0px 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .headerDiv2 h2 {
+        width: fit-content;
+        padding: 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .headerDiv2 h3 {
+        width: fit-content;
+        padding: 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .headerDiv2 button {
+        width: 30%;
+        max-width: fit-content;
+        font-size: 20px;
+        padding: 5px !important;
+        margin-left: 15px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: black;
+        transition: 0.3s;
+    }
+
+    .headerDiv2 button:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
+
+    .header3 {
+        background-image: url('../img/caraclarineta.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headerDiv3 {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 75%);
+        height: 100vh;
+        text-align: right;
+        display: grid;
+        align-content: center;
+        font-size: 100px;
+    }
+
+    .headerDiv3 h1 {
+        padding: 0px 15px 0px 0px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .headerDiv3 h2 {
+        padding: 15px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .headerDiv3 h3 {
+        padding: 15px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .headerDiv3 button {
+        max-width: fit-content;
+        width: 30%;
+        font-size: 20px;
+        padding: 5px !important;
+        margin-right: 15px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: black;
+        transition: 0.3s;
+        text-align: right;
+        justify-self: right;
+    }
+
+    .headerDiv3 button:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
+
+    .header4 {
+        background-image: url('../img/caragaita.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headerDiv4 {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 25%, rgba(0, 212, 255, 0) 100%);
+        height: 100vh;
+        text-align: left;
+        display: grid;
+        align-content: center;
+        font-size: 100px;
+    }
+
+    .headerDiv4 h1 {
+        width: fit-content;
+        padding: 0px 0px 0px 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .headerDiv4 h2 {
+        width: fit-content;
+        padding: 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .headerDiv4 h3 {
+        width: fit-content;
+        padding: 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .headerDiv4 button {
+        width: 30%;
+        max-width: fit-content;
+        font-size: 20px;
+        padding: 5px !important;
+        margin-left: 15px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: black;
+        transition: 0.3s;
+    }
+
+    .headerDiv4 button:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
+
+    .header5 {
+        background-image: url('../img/carasaxophone.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headerDiv5 {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 75%);
+        height: 100vh;
+        text-align: right;
+        display: grid;
+        align-content: center;
+        font-size: 100px;
+    }
+
+    .headerDiv5 h1 {
+        padding: 0px 15px 0px 0px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .headerDiv5 h2 {
+        padding: 15px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .headerDiv5 h3 {
+        padding: 15px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .headerDiv5 button {
+        max-width: fit-content;
+        width: 30%;
+        font-size: 20px;
+        padding: 5px !important;
+        margin-right: 15px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: black;
+        transition: 0.3s;
+        text-align: right;
+        justify-self: right;
+    }
+
+    .headerDiv5 button:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
+
+    .header6 {
+        background-image: url('../img/caracanta.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headerDiv6 {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 75%);
+        height: 100vh;
+        text-align: right;
+        display: grid;
+        align-content: center;
+        font-size: 100px;
+    }
+
+    .headerDiv6 h1 {
+        padding: 0px 15px 0px 0px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .headerDiv6 h2 {
+        padding: 15px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .headerDiv6 h3 {
+        padding: 15px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .headerDiv6 button {
+        max-width: fit-content;
+        width: 30%;
+        font-size: 20px;
+        padding: 5px !important;
+        margin-right: 15px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: black;
+        transition: 0.3s;
+        text-align: right;
+        justify-self: right;
+    }
+
+    .headerDiv6 button:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
+
+    .header7 {
+        background-image: url('../img/carabateria.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headerDiv7 {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 25%, rgba(0, 212, 255, 0) 100%);
+        height: 100vh;
+        text-align: left;
+        display: grid;
+        align-content: center;
+        font-size: 100px;
+    }
+
+    .headerDiv7 h1 {
+        width: fit-content;
+        padding: 0px 0px 0px 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .headerDiv7 h2 {
+        width: fit-content;
+        padding: 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .headerDiv7 h3 {
+        width: fit-content;
+        padding: 15px !important;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .headerDiv7 button {
+        width: 30%;
+        max-width: fit-content;
+        font-size: 20px;
+        padding: 5px !important;
+        margin-left: 15px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: black;
+        transition: 0.3s;
+    }
+
+    .headerDiv7 button:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
+
+    .header8 {
+        background-image: url('../img/carapiano.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headerDiv8 {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 75%);
+        height: 100vh;
+        text-align: right;
+        display: grid;
+        align-content: center;
+        font-size: 100px;
+    }
+
+    .headerDiv8 h1 {
+        padding: 0px 15px 0px 0px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .headerDiv8 h2 {
+        padding: 15px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .headerDiv8 h3 {
+        padding: 15px !important;
+        text-align: right;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .headerDiv8 button {
+        max-width: fit-content;
+        width: 30%;
+        font-size: 20px;
+        padding: 5px !important;
+        margin-right: 15px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: black;
+        transition: 0.3s;
+        text-align: right;
+        justify-self: right;
+    }
+
+    .headerDiv8 button:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
